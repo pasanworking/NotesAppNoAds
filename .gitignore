@@ -1,15 +1,42 @@
+# Android Studio / IntelliJ
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Gradle
+.gradle/
+**/build/
+!gradle-wrapper.jar
+
+# Local configuration
 local.properties
+
+# Log / temp files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Google Services (ключи Firebase)
+app/google-services.json
+
+# Keystore files (подпись приложения)
+*.jks
+*.keystore
+
+# Android specific
+captures/
+output.json
+
+# APK / Dex / Class files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# NDK / C++
+obj/
+*.so
